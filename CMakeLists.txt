@@ -10,4 +10,13 @@ add_library(process INTERFACE)
 target_compile_features(process INTERFACE cxx_std_17)
 target_precompile_headers(process INTERFACE pch.hpp)
 
+install(TARGETS process
+		EXPORT libTargets
+		LIBRARY DESTINATION lib
+		ARCHIVE DESTINATION lib
+		RUNTIME DESTINATION bin
+		INCLUDES DESTINATION include)
+
+install(DIRECTORY include/ DESTINATION include)
+
 set(LIB_TARGETS process PARENT_SCOPE)
