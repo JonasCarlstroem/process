@@ -1,5 +1,5 @@
 #pragma once
-#include <io/streambuf>
+#include <io/streambuf.h>
 #include <istream>
 
 namespace proc {

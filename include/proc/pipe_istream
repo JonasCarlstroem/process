@@ -1,3 +1,0 @@
-#pragma once
-
-#include "../../pipe/proc_pipe_istream.hpp"

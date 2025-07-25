@@ -1,17 +1,17 @@
 #pragma once
-#include "proc_pipe_istream.hpp"
-#include "proc_pipe_ostream.hpp"
-#include "proc_pipe_stream.hpp"
+#include "istream.h"
+#include "ostream.h"
+#include "stream.h"
 #include <atomic>
 #include <fcntl.h>
 #include <fstream>
 #include <io.h>
-#include <io/stream>
+#include <io/stream.h>
 #include <optional>
 #include <stdexcept>
 #include <thread>
-#include <winapi/debugger>
-#include <winapi/handle>
+#include <winapi/debugger.h>
+#include <winapi/handle.h>
 
 namespace proc {
 

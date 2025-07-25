@@ -1,8 +1,8 @@
 #pragma once
 #include <stdexcept>
-#include <io/reader>
-#include <io/writer>
-#include "proc_handle.hpp"
+#include <io/reader.h>
+#include <io/writer.h>
+#include "handle.h"
 
 #ifdef _PROC_IO
 namespace proc {
